@@ -1,0 +1,129 @@
+* {
+ font-family:'courgette'; 
+}
+html, body {
+ height:100% 
+}
+body {
+ padding:0;
+  margin:0;
+  background-color:#FFEBEE;
+}
+.nav {
+ position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:#e2696d;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+  
+}
+.nav-header {
+ position: relative;
+  margin-top:0;
+  margin-bottom:0;
+  width:100%;
+  text-align: center;
+  color:white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.32);
+  font-size: 25px;
+  line-height: 50px;
+}
+.empty-block {
+ width:100%;
+  height: 90px;
+  position: relative;
+}
+.side-nav {
+  position: fixed;
+  top:50px;
+  width:100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+.side-btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  width: calc(100% /5);
+  background-color:#3c3c3b;
+  line-height: 40px;
+  color:white;
+}
+.card {
+ position:relative;
+  width:95%;
+  left:2.5%;
+  background-color:white;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+  border-radius:3px;
+}
+.card-header {
+ position:relative;
+  width:100%;
+  font-size:27px;
+  line-height:50px;
+  text-align:center;
+  color:#e2696d;
+  background-color:#3c3c3b;
+  border-top-right-radius:3px;
+  border-top-left-radius:3px;
+}
+.field {
+display:block;
+position: relative;
+  width:90%;
+  left:5%;
+}
+.input {
+ border:none;
+  width:100%;
+  z-index: +2;
+  background-color:transparent;
+line-height: 25px;
+  top:10px;
+  border-radius: 5px;
+  position: relative;
+  border-bottom:solid 2px #606060;
+}
+.input:focus {
+  border-bottom:solid 2px #e2696d; 
+}
+.field label {
+  position:relative;
+  top:0;
+  display: inline-block;
+  width:100%;
+  text-align:center;
+  width:100%;
+  color:#747474;
+}
+.shorten-btn {
+ margin-bottom: 30px; 
+  position: relative;
+  border:none;
+  display: inline-block;
+  width:50%;
+  color:white;
+  line-height: 30px;
+  background-color:#e2696d;
+  border-radius: 3px ;
+  left: calc(50% - 25%);
+  cursor: pointer;
+  margin-top:30px;
+}
+.shorten-btn:hover {
+  background-color: #3c3c3b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
